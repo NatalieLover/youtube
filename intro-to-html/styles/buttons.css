@@ -1,0 +1,233 @@
+.subscribe-button {
+  background-color: rgb(200, 0, 0);
+  color: white;
+  border: none;
+  cursor: pointer;
+  margin-left: 8px;
+  margin-right: 8px;
+  padding-top:10px;
+  padding-bottom:10px;
+  padding-right:16px;
+  border-radius:2px;
+  padding-left:16px;
+  vertical-align: top;
+  transition: opacity 0.3s;
+}
+
+.subscribe-button:hover{
+  opacity: 0.8;
+}
+
+.subscribe-button:active{
+  opacity: 0.5;
+}
+
+.join-button {
+  background-color: white;
+  border-color: rgb(41, 118, 214);
+  border-style: solid;
+  border-width: 1px;
+  color:rgb(41, 118, 214);
+  border-radius: 2px;
+  cursor: pointer;
+  margin-left: 8px;
+  margin-right: 8px;
+  padding-top:9px;
+  padding-bottom:9px;
+  padding-right:16px;
+  padding-left:16px;
+  vertical-align: top;
+  transition: background-color 300ms,
+  color 1s;
+}
+
+.join-button:hover{
+  background-color: rgb(41, 118, 214);
+  color: white;
+}
+
+.join-button:active{
+  opacity: 0.7;
+}
+
+.tweet-button{
+  background-color:rgb(2, 158, 255);
+  color:white;
+  border: none;
+  border-radius:18px;
+  font-weight: bold;
+  font-size: 15px;
+  cursor: pointer;
+  margin-left: 8px;
+  margin-right: 8px;
+  padding-top:10px;
+  padding-bottom:10px;
+  padding-right:16px;
+  padding-left:16px;
+  vertical-align: top;
+  transition: box-shadow 250ms;
+}
+
+.tweet-button:hover{
+  box-shadow: 5px 5px 9px rgba(0, 0, 0, 0.3);
+}
+
+.black-button{
+  background-color: black;
+  color:white;
+  border:none;
+  cursor:pointer;
+  font-size: 11px;
+  margin-left: 8px;
+  margin-right: 8px;
+  padding-top:10px;
+  padding-bottom:10px;
+  padding-right:16px;
+  border-radius:2px;
+  padding-left:16px;
+  vertical-align: top;
+}
+
+.black-button:hover{
+  opacity: 0.7;
+}
+
+.roses-button{
+  background-color:deeppink;
+  color: white;
+  font-weight: bold;
+  border: none;
+  cursor: pointer;
+  font-size: 13px;
+  border-radius: 18px;
+  margin-left: 8px;
+  margin-right: 8px;
+  padding-top:10px;
+  padding-bottom:10px;
+  padding-right:16px;
+  padding-left:16px;
+  vertical-align: top;  
+  transition: color 500ms,
+  opacity 500ms,
+  box-shadow 300ms;
+}
+
+.roses-button:hover{
+  background-color: rgb(177, 33, 33);
+  color: white;
+  box-shadow: 4px 4px 9px rgba(0, 0, 0, 0.3);
+}
+.roses-button:active {
+  opacity: 0.8;
+}
+
+.purchase-button{
+  background-color: rgb(219, 183, 20);
+  color:black;
+  border:none;
+  border-radius: 18px;
+  font-weight: bold;
+  margin-left: 8px;
+  margin-right: 8px;
+  padding-top:10px;
+  padding-bottom:10px;
+  padding-right:16px;
+  padding-left:16px;
+  vertical-align: top;
+  transition: padding 300ms;
+}
+
+.purchase-button:hover{
+  background-color: rgb(182, 154, 28);
+}
+
+.stretch-button{
+  background-color: rgb(16, 119, 33);
+  color:white;
+  border:none;
+  font-weight: bold;
+  margin-left: 8px;
+  margin-right: 8px;
+  padding-top:10px;
+  padding-bottom:10px;
+  padding-right:16px;
+  padding-left:16px;
+  vertical-align: top;
+  transition: margin 300ms,
+  padding 300ms;
+}
+
+.stretch-button:hover{
+  margin-left: 12px;
+  margin-right: 12px;
+  padding-top:15px;
+  padding-bottom:15px;
+  padding-right:24px;
+  padding-left:24px;
+}
+
+body {
+  font-family: arial, helvetica, sans-serif;
+  font-size: 14px;
+  color: black;
+  background-color: #ffc;
+  margin: 20px;
+  padding: 0;
+}
+
+/* This is a comment, by the way */
+
+p {
+  line-height: 21px;
+}
+
+h1 {
+  color: black;
+  background-color: #d90166;
+  margin: 0;
+  margin-bottom: 7px;
+  padding: 4px;
+  font-style: italic;
+  text-align: center;
+  border-bottom-style: solid;
+  border-bottom-width: 0.5em;
+  border-bottom-color: #ec026f;
+}
+
+h2 {
+  color: black;
+  background-color: #d90166;
+  font-size: 1.5em;
+  margin: 0;
+  padding: 2px;
+  padding-left: 14px;
+}
+
+h3 {
+  color: #999;
+  font-size: 1.25em;
+}
+
+img {
+  border-style: dashed;
+  border-width: 2px;
+  border-color: #ccc;
+}
+
+a {
+  text-decoration: none;
+}
+
+strong {
+  font-style: italic;
+  text-transform: uppercase;
+}
+
+li {
+  color: #900;
+  font-style: italic;
+}
+
+table {
+  background-color: #ccc;
+}
